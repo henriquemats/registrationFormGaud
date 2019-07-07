@@ -1,6 +1,6 @@
 import Reactotron from 'reactotron-react-js';
 
-const reactotron = Reactotron.configure({ host: '192.168.1.3' }).connect();
+const reactotron = Reactotron.configure({ host: 'your IP' }).connect();
 
 reactotron.clear();
 
