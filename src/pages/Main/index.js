@@ -37,11 +37,7 @@ export default class Main extends Component {
       if (error === false) {
         numberOfHits += 1;
       }
-      console.tron.log(numberOfHits);
-
       if (numberOfHits === 1) {
-        console.tron.log(numberOfHits);
-
         await this.setState({
           statusColor: {
             firstProgressBar: { color: '#F00' },
@@ -50,8 +46,6 @@ export default class Main extends Component {
           },
         });
       } else if (numberOfHits === 2) {
-        console.tron.log(numberOfHits);
-
         await this.setState({
           statusColor: {
             firstProgressBar: { color: '#ffd600' },
@@ -60,8 +54,6 @@ export default class Main extends Component {
           },
         });
       } else if (numberOfHits === 3) {
-        console.tron.log(numberOfHits);
-
         await this.setState({
           statusColor: {
             firstProgressBar: { color: '#00c853' },
