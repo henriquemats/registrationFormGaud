@@ -47,13 +47,13 @@ export const Form = styled.form`
   }
 
   input {
-    flex: 1;
+    width: 100%;
     height: 40px;
     padding: 0 15px;
     margin-top: 6px;
     background: #fff;
     border: 1px solid #e0e0e0;
-    font-size: 18px;
+    font-size: 14px;
     color: #000;
     border-radius: 4px;
   }
